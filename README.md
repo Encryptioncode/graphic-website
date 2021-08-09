@@ -1,5 +1,5 @@
 # graphic-website
-Graphic website of encryption code
+Graphic website of Encryption code
 
 It is supposed to end up similar to the apple website
 - Animations while scrolling
