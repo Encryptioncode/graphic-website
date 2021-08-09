@@ -1,5 +1,5 @@
 # graphic-website
-Graphic website of Encryption code
+Graphic website of Encryption code, with a lot of interactive things
 
 It is supposed to end up similar to the apple website
 - Animations while scrolling
