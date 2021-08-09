@@ -12,3 +12,4 @@ It is supposed to end up similar to the apple website
   - the 99% thing staying in the center while scrolling moves up and down a bit too much
 
 - I also want to make it so that there is an image animating but that would be hard
+  - I would have to have multiple frames from different angles and display them one by one
