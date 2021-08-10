@@ -16,6 +16,8 @@ It is supposed to end up similar to the apple website
   - Black page opens upwards revealing 99% encryption accuracy
   - Encryption accuracy stops moving down and stays with other words
   - 99% moves down to more efficient algorithms
+  - Security is built in
+  - Security features fade in
 
 - problems
   - the 99% thing staying in the center while scrolling moves up and down a bit too much
