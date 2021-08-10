@@ -8,7 +8,6 @@ It is supposed to end up similar to the apple website
 ## Check out what's done 
 ![](Encryption_code_website.gif)
 
-- This is only part of it
 
 - Scroll through effects sequence
   - Data security redefined and Encryption code 2.2 float in and fade in
