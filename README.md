@@ -28,3 +28,5 @@ It is supposed to end up similar to the apple website
 
 - I also want to make it so that there is an image animating but that would be hard
   - I would have to have multiple frames from different angles and display them one by one
+  - this is done but it's not great
+  - also it takes almost 300 lines of code for the animation and 143 for the image loading
