@@ -11,6 +11,7 @@ It is supposed to end up similar to the apple website
 - This is only part of it
 
 - Scroll through effects
+  - Data security redefined and Encryption code 2.2 float in and fade in
 
 - problems
   - the 99% thing staying in the center while scrolling moves up and down a bit too much
