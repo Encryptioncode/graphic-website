@@ -18,6 +18,7 @@ It is supposed to end up similar to the apple website
   - 99% moves down to more efficient algorithms
   - Security is built in
   - Security features fade in
+  - screen fades from black to white and encryption code beta and pro fade from white to black
 
 - problems
   - the 99% thing staying in the center while scrolling moves up and down a bit too much
