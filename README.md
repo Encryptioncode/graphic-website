@@ -10,6 +10,8 @@ It is supposed to end up similar to the apple website
 
 - this is only part of it
 
+- Sroll through effects
+
 - problems
   - the 99% thing staying in the center while scrolling moves up and down a bit too much
 
