@@ -4,16 +4,23 @@ function setup() {
 }
 
 let mousepos = 25;
+var firsttime = true;
+
+function donothing(){
+}
 
 function draw() {
-  if (mousepos == 25){
+  if (firsttime){
+    requestAnimationFrame(donothing,0.001);
+    mousepos += 10;
   window.scroll({
-  //top: 200,
+  top: mousepos,
   behavior: 'smooth' 
    });
-   //mousepos = 225;
    }
-  
+  if (firsttime && mousepos > 350){
+    firsttime = false;
+  }
   clear();
   fill(0,0,0);
   rect(0,0,2000,1750);
@@ -104,7 +111,7 @@ function draw() {
   } else if (mousepos >= 2780 && mousepos < 2820){
     text('Security is built ••',520,3000);
   } else if (mousepos >= 2820 && mousepos < 2860){
-    text('Security is bulit i•',520,3000);
+    text('Security is built i•',520,3000);
   } else if (mousepos >= 2860){
     text('Security is built in',520,3000);
   } 
@@ -115,6 +122,19 @@ function draw() {
   text('Multiple Encryption algorithms', 100, 3200);
   text('Password protected Encryption', 800, 3200);
   text('4 try Password lockout', 1500, 3200);
+  
+  if (mousepos >= 3500){
+    background(mousepos - 3500);
+  }
+  textSize(100);
+  
+  fill(3390 + 255 - mousepos);
+  text('Encryption code', 100, 4300);
+  fill(3390 + 400 - mousepos);
+  text('Beta', 1100, 4300);
+  fill(3390 + 550 - mousepos);
+  text('Pro', 1600, 4300);
+  
   
 }
 
