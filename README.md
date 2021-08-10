@@ -8,9 +8,9 @@ It is supposed to end up similar to the apple website
 ## Check out what's done 
 ![](Encryption_code_website.gif)
 
-- this is only part of it
+- This is only part of it
 
-- Sroll through effects
+- Scroll through effects
 
 - problems
   - the 99% thing staying in the center while scrolling moves up and down a bit too much
