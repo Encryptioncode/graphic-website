@@ -19,6 +19,8 @@ It is supposed to end up similar to the apple website
   - Security is built in
   - Security features fade in
   - screen fades from black to white and encryption code beta and pro fade from white to black
+  - screen fades back to white
+  - computer animation
 
 - problems
   - the 99% thing staying in the center while scrolling moves up and down a bit too much
