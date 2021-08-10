@@ -10,10 +10,10 @@ It is supposed to end up similar to the apple website
 
 - This is only part of it
 
-- Scroll through effects
+- Scroll through effects sequence
   - Data security redefined and Encryption code 2.2 float in and fade in
   - 4 lines come in from 2 sides and all new features fades in
-  - black page opens upwards
+  - black page opens upwards revealing 99% encryption accuracy
 
 - problems
   - the 99% thing staying in the center while scrolling moves up and down a bit too much
