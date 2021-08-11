@@ -2,7 +2,7 @@
 Graphic website of Encryption code, with a lot of interactive things
 
 It is supposed to end up similar to the apple website
-- Animations while scrolling
+- scroll controlled animation and content
 
 ## Check out what's done 
 ![](Encryption_code_website.gif)
@@ -30,3 +30,4 @@ It is supposed to end up similar to the apple website
 - computer animating
   - has multiple frames from different angles and display them one by one
   - also it takes almost 300 lines of code for the animation and 143 for the image loading
+
