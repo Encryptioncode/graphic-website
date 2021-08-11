@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(2000,8000);
+  createCanvas(2000,10000);
   //background(0,0,0);
 }
 
@@ -25,6 +25,7 @@ disableScroll();
 
 function donothing(){
 }
+
 
 function preload(){
   i1 = loadImage("Videoframes/ezgif-frame-001.jpg");
@@ -174,6 +175,7 @@ logo = loadImage("logo.png");
 }
 
 var ftime = true;
+var x = 2;
 enableScroll();
 
 function draw() {
@@ -313,7 +315,8 @@ function draw() {
   }
   
   rect(0,4800,2000,3000);
-    if (mousepos < 4754){ 
+  if (mousepos >= 4654){
+  if (mousepos < 4754){ 
   image(i1, 300, 4800, 1500, 844);
   } else if (mousepos >= 4754 && mousepos < 4756){
   image(i2, 300, 4800, 1500, 844);
@@ -599,7 +602,7 @@ function draw() {
   image(i142, 300, 4800, 1500, 844);
   } else if (mousepos >= 5236 && mousepos < 5238){
   image(i143, 300, 4800, 1500, 844);
-  }
+  } }
   fill(mousepos - 4500);
   textSize(80);
   text('Data security',50,5050);
@@ -608,12 +611,26 @@ function draw() {
   text('Web Service',1400,5200);
   
   fill(255);
+  if (mousepos >= 5600){
+    tint(255, 250); 
+    text('fast processing gif here',1400,5100);
+    tint(255, 250 - (mousepos - 5600));
+    fill(255);
+   
+  } else {
+    tint(255, 250); 
+  }
   
   text('______________________',(mousepos/2)-4900,5100);
-  if (mousepos >= 5300){
-    image(logo, (1000-(mousepos-4700))/2, mousepos+100, (mousepos-4700)*2, ((mousepos-4700)*2*9/16));
+  if (mousepos >= 5240){
+    image(logo, (1000 - ((mousepos-5200)*x/2)), mousepos - (mousepos-5100), (mousepos-5200)*x, ((mousepos-5200)*2*x*9/16));
+    x = 6;
   } else {
     //image(logo, (1000-(mousepos-4700))/2, 5900, (mousepos-4700)*2, ((mousepos-4700)*2*9/16));
+  }
+  if (mousepos >= 5600){
+    tint(255, 250); 
+    text('fast processing gif here',1400,5100);
   }
 }
 
