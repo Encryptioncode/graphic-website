@@ -34,3 +34,4 @@ It is supposed to end up similar to the apple website
 - Enlarging logo
   - logo enlarges as you scroll and then you go through it
   - I made a high res logo for this
+  - it works, but then the 
