@@ -622,16 +622,17 @@ function draw() {
   }
   
   text('______________________',(mousepos/2)-4900,5100);
-  if (mousepos >= 5240){
+  if (mousepos >= 5240 && mousepos <= 6000){
     image(logo, (1000 - ((mousepos-5200)*x/2)), mousepos - (mousepos-5100), (mousepos-5200)*x, ((mousepos-5200)*2*x*9/16));
     x = 6;
   } else {
     //image(logo, (1000-(mousepos-4700))/2, 5900, (mousepos-4700)*2, ((mousepos-4700)*2*9/16));
   }
-  if (mousepos >= 5600){
     tint(255, 250); 
-    text('fast processing gif here',1400,5100);
-  }
+    if (mousepos >= 5630){
+      fill(0,mousepos - 5600,mousepos - 5600);
+      text('fast processing gif here',500,6300);
+    }
 }
 
 function mouseWheel(event) {
