@@ -18,7 +18,7 @@ It is supposed to end up similar to the apple website
   - 99% moves down to more efficient algorithms
   - Security is built in
   - Security features fade in
-  - screen fades from black to white and encryption code beta and pro fade from white to black
+  - screen fades from black to white and encryption code beta pro fade from white to black
   - screen fades back to white
   - computer animation
   - enlarging logo
