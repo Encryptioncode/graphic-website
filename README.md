@@ -3,7 +3,6 @@ Graphic website of Encryption code, with a lot of interactive things
 
 It is supposed to end up similar to the apple website
 - Animations while scrolling
-- Fading in and out by scrolling
 
 ## Check out what's done 
 ![](Encryption_code_website.gif)
