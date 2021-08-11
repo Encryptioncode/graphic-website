@@ -26,7 +26,7 @@ It is supposed to end up similar to the apple website
 - problems
   - the 99% thing staying in the center while scrolling moves up and down a bit too much
   - it takes some time to load in the begining because it has to load the images
-  - the enlarging logo takes too much scrolling time to enlarge
+  - the enlarging logo takes too much scrolling time and distance to enlarge
 
 - computer animating
   - has multiple frames from different angles and display them one by one
