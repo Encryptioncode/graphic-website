@@ -32,3 +32,4 @@ It is supposed to end up similar to the apple website
   - also it takes almost 300 lines of code for the animation and 143 for the image loading
 
 - Enlarging logo
+  - logo enlarges as you scroll and then you go through it
