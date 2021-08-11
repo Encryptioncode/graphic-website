@@ -26,6 +26,7 @@ It is supposed to end up similar to the apple website
 - problems
   - the 99% thing staying in the center while scrolling moves up and down a bit too much
   - it takes some time to load in the begining because it has to load the images
+  - the enlarging logo takes too much scrolling time to enlarger
 
 - I also want to make it so that there is an image animating but that would be hard
   - I would have to have multiple frames from different angles and display them one by one
