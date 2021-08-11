@@ -28,7 +28,7 @@ It is supposed to end up similar to the apple website
   - it takes some time to load in the begining because it has to load the images
   - the enlarging logo takes too much scrolling time to enlarger
 
-- I also want to make it so that there is an image animating but that would be hard
+- computer animating
   - I would have to have multiple frames from different angles and display them one by one
   - this is done but it's not great
   - also it takes almost 300 lines of code for the animation and 143 for the image loading
