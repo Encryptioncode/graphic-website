@@ -29,6 +29,6 @@ It is supposed to end up similar to the apple website
   - the enlarging logo takes too much scrolling time to enlarger
 
 - computer animating
-  - I would have to have multiple frames from different angles and display them one by one
+  - has multiple frames from different angles and display them one by one
   - this is done but it's not great
   - also it takes almost 300 lines of code for the animation and 143 for the image loading
