@@ -25,8 +25,7 @@ It is supposed to be similar to the apple website for iphone where they have to 
     - enlarges to medium size and then stops enlarging
     - processor text goes by
     - keeps enlarging and then you go through it
-    - becomes slightly opaque as you go though it so that you can see whats behind it
-    - 
+    - becomes slightly opaque as you go though it so that you can see whats behind it (which is the processing gif)
   - processing gif and text
 
 - problems
