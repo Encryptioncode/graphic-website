@@ -24,7 +24,7 @@ It is supposed to be similar to the apple website for iphone where they have to 
   - enlarging logo
     - enlarges to medium size and then stops enlarging
     - processor text goes by
-    - 
+    - keeps enlarging and then you go through it
   - processing gif and text
 
 - problems
