@@ -34,6 +34,5 @@ It is supposed to end up similar to the apple website
 - Enlarging logo
   - logo enlarges as you scroll and then you go through it
   - I made a high res logo for this
-  - it works, but then the gif and text after does not show
     - maybe because of the opacity, but I made it clear after the enlargement
   - also this is not super smooth as i want it to be but its ok
