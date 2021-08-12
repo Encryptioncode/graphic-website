@@ -253,46 +253,48 @@ function draw() {
     
   fill(255);
   if (mousepos >= 2100 && mousepos < 2140){
-    text('••••••••••••••••••••',520,3000);
+    text('•••••••••••••••••••••',520,3000);
   } else if (mousepos >= 2140 && mousepos < 2180){
-    text('S•••••••••••••••••••',520,3000);
+    text('S••••••••••••••••••••',520,3000);
   } else if (mousepos >= 2180 && mousepos < 2220){
-    text('Se••••••••••••••••••',520,3000);
+    text('Se•••••••••••••••••••',520,3000);
   } else if (mousepos >= 2220 && mousepos < 2260){
-    text('Sec•••••••••••••••••',520,3000);
+    text('Sec••••••••••••••••••',520,3000);
   } else if (mousepos >= 2260 && mousepos < 2300){
-    text('Secu••••••••••••••••',520,3000);
+    text('Secu•••••••••••••••••',520,3000);
   } else if (mousepos >= 2300 && mousepos < 2340){
-    text('Secur•••••••••••••••',520,3000);
+    text('Secur••••••••••••••••',520,3000);
   } else if (mousepos >= 2340 && mousepos < 2380){
-    text('Securi••••••••••••••',520,3000);
+    text('Securi•••••••••••••••',520,3000);
   } else if (mousepos >= 2380 && mousepos < 2420){
-    text('Securit•••••••••••••',520,3000);
+    text('Securit••••••••••••••',520,3000);
   } else if (mousepos >= 2420 && mousepos < 2460){
-    text('Security••••••••••••',520,3000);
+    text('Security•••••••••••••',520,3000);
   } else if (mousepos >= 2460 && mousepos < 2500){
-    text('Security •••••••••••',520,3000);
+    text('Security ••••••••••••',520,3000);
   } else if (mousepos >= 2500 && mousepos < 2540){
-    text('Security i••••••••••',520,3000);
+    text('Security i•••••••••••',520,3000);
   } else if (mousepos >= 2540 && mousepos < 2580){
-    text('Security is ••••••••',520,3000);
+    text('Security is •••••••••',520,3000);
   } else if (mousepos >= 2580 && mousepos < 2620){
-    text('Security is b•••••••',520,3000);
+    text('Security is b••••••••',520,3000);
   } else if (mousepos >= 2620 && mousepos < 2660){
-    text('Security is bu••••••',520,3000);
+    text('Security is bu•••••••',520,3000);
   } else if (mousepos >= 2660 && mousepos < 2700){
-    text('Security is bui•••••',520,3000);
+    text('Security is bui••••••',520,3000);
   } else if (mousepos >= 2700 && mousepos < 2740){
-    text('Security is buil••••',520,3000);
+    text('Security is buil•••••',520,3000);
   } else if (mousepos >= 2740 && mousepos < 2780){
-    text('Security is built•••',520,3000);
+    text('Security is built••••',520,3000);
   } else if (mousepos >= 2780 && mousepos < 2820){
-    text('Security is built ••',520,3000);
+    text('Security is built •••',520,3000);
   } else if (mousepos >= 2820 && mousepos < 2860){
-    text('Security is built i•',520,3000);
-  } else if (mousepos >= 2860){
-    text('Security is built in',520,3000);
-  } 
+    text('Security is built i••',520,3000);
+  } else if (mousepos >= 2860 && mousepos <= 2880){
+    text('Security is built in•',520,3000);
+  } else if (mousepos >= 2880){
+    text('Security is built in.',520,3000);
+  }
   
   textSize(45);
   
@@ -650,8 +652,8 @@ function draw() {
       fill(mousepos - 6000,mousepos - 5600,mousepos - 5800);
       text('Encryption code E22 Processor',500,6300);
       textSize(50);
-      fill(mousepos - 5800,mousepos - 5400,mousepos - 5600);
-      text('The fastest and most efficient data processor ever built by Encryption code',50,6600);
+      fill(mousepos - 5600,mousepos - 5800,mousepos - 6000);
+      text('The fastest and most efficient data processor ever built by Encryption code',100,6600);
     }
 }
 
