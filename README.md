@@ -1,5 +1,5 @@
 # graphic-website
-Graphic website of Encryption code, with a lot of animating and fading  content
+Graphic website of Encryption code, with a lot of animating and fading content which is operated by scrolling
 
 It is supposed to end up similar to the apple website
 - scroll controlled animation and content
