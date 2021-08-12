@@ -33,6 +33,6 @@ It is supposed to end up similar to the apple website
 
 - Enlarging logo
   - logo enlarges as you scroll and then you go through it
-  - as you go though it the processing gif appears
+  - as you go though it the processing gif appears along with text that fades in
   - I made a high res logo for this
   - also this is not super smooth as i want it to be but its ok
