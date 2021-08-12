@@ -2,7 +2,7 @@
 Graphic website of Encryption code, with a lot of animating and fading content which is operated by scrolling
 
 It is supposed to be similar to the apple website for iphone where they have to phone animating around as you scroll
-- scroll controlled animation and content
+- this contains scroll controlled animation and other content
 
 ## Check out what's done 
 ![](Encryption_code_website.gif)
