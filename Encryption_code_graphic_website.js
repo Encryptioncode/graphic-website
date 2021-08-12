@@ -291,9 +291,15 @@ function draw() {
   textSize(45);
   
   fill(mousepos - 2400);
-  text('Multiple Encryption algorithms', 100, 3200);
-  text('Password protected Encryption', 800, 3200);
-  text('4 try Password lockout', 1500, 3200);
+  text('Multiple Encryption algorithms', 100, 3300);
+  text('Password protected Encryption', 800, 3300);
+  text('4 try Password lockout', 1500, 3300);
+  text('Make it very difficult ', 100, 3500);
+  text('to decipher and manipulate ', 100, 3600);
+  text('Only the password can', 800, 3500);
+  text('unlock your message', 800, 3600);
+  text('Locks you out after', 1500, 3500);
+  text('4 wrong attempts', 1500, 3600);
   
   if (mousepos >= 3500 && mousepos <= 4900){
     background(mousepos - 3500);
@@ -307,6 +313,13 @@ function draw() {
   text('Beta', 1100, 4300);
   fill(3390 + 550 - mousepos);
   text('Pro', 1600, 4300);
+  fill(3390 + 600 - mousepos);
+  textSize(60);
+  text('All the good stuff.', 100, 4500);
+  text('Secure. Simple interface.', 700, 4500);
+  text('Stellar performance',700,4700);
+  text('The prototype for', 1400, 4500);
+  text('the professional', 1400, 4700);
   
   if (mousepos >= 4900 && mousepos <= 5700){
     background(5000 - mousepos);
@@ -629,9 +642,11 @@ function draw() {
   }
     tint(255, 250); 
     if (mousepos >= 5630){
-      fill(0,mousepos - 5600,mousepos - 5600);
+      fill(mousepos - 6000,mousepos - 5600,mousepos - 5800);
       text('Encryption code E22 Processor',500,6300);
-      text('The fastest and mose efficient data processor Ever built by encryption code',500,6600);
+      textSize(60);
+      fill(mousepos - 5800,mousepos - 5400,mousepos - 5600);
+      text('The fastest and mose efficient data processor ever built by Encryption code',50,6600);
     }
 }
 
