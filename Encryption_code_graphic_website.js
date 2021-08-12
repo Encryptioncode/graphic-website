@@ -7,11 +7,8 @@ let mousepos = 25;
 var firsttime = true;
 
 function disableScroll() {
-    // Get the current page scroll position
     scrollTop = window.pageYOffset || document.documentElement.scrollTop;
     scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
-  
-        // if any scroll is attempted, set this to the previous value
         window.onscroll = function() {
             window.scrollTo(scrollLeft, scrollTop);
         };
@@ -172,6 +169,7 @@ i141 = loadImage("Videoframes/ezgif-frame-141.jpg");
 i142 = loadImage("Videoframes/ezgif-frame-142.jpg");
 i143 = loadImage("Videoframes/ezgif-frame-143.jpg");
 logo = loadImage("logo.png");
+processor = loadImage("processor.gif");
 }
 
 var ftime = true;
@@ -613,7 +611,8 @@ function draw() {
   fill(255);
   if (mousepos >= 5600){
     tint(255, 250); 
-    text('fast processing gif here',1400,5100);
+    text('fast processing gif here',500,5100);
+    image(processor,500, 6000, 1000, 500);
     tint(255, 250 - (mousepos - 5600));
     fill(255);
    
@@ -631,7 +630,8 @@ function draw() {
     tint(255, 250); 
     if (mousepos >= 5630){
       fill(0,mousepos - 5600,mousepos - 5600);
-      text('fast processing gif here',500,6300);
+      text('Encryption code E22 Processor',500,6300);
+      text('The fastest and mose efficient data processor Ever built by encryption code',500,6600);
     }
 }
 
