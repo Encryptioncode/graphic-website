@@ -637,7 +637,7 @@ function draw() {
     fill(255);
    
   } else {
-    tint(255, 250); 
+    tint(255, (mousepos - 5243)); 
   }
   
   text('______________________',(mousepos/2)-4900,5100);
