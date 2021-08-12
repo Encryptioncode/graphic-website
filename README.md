@@ -1,7 +1,7 @@
 # graphic-website
 Graphic website of Encryption code, with a lot of animating and fading content which is operated by scrolling
 
-It is supposed to end up similar to the apple website
+It is supposed to be similar to the apple website 
 - scroll controlled animation and content
 
 ## Check out what's done 
