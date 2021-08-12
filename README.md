@@ -22,6 +22,8 @@ It is supposed to be similar to the apple website for iphone where they have to 
   - screen fades back to white
   - computer animation
   - enlarging logo
+    - enlarges to medium size and then stops enlarging
+    - 
   - processing gif and text
 
 - problems
