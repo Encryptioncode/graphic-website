@@ -22,6 +22,7 @@ It is supposed to be similar to the apple website for iphone where they have to 
   - screen fades back to white
   - computer animation
   - enlarging logo
+  - processing gif and text
 
 - problems
   - the 99% thing staying in the center while scrolling moves up and down a bit too much
