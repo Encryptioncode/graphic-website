@@ -7,6 +7,7 @@ It is supposed to end up similar to the apple website
 ## Check out what's done 
 ![](Encryption_code_website.gif)
 ![](ezgif.com-gif-maker-1.gif)
+- this is not all, i still have to make the zooming in gif
 
 
 - Scroll through effects sequence
