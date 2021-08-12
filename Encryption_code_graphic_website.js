@@ -332,7 +332,7 @@ function draw() {
   if (mousepos >= 4900 && mousepos <= 5700){
     background(5000 - mousepos);
   }
-  
+  tint(255, 250); 
   rect(0,4800,2000,3000);
   if (mousepos >= 4654){
   if (mousepos < 4754){ 
@@ -629,32 +629,59 @@ function draw() {
   text('Python script',1400,5050);
   text('Web Service',1400,5200);
   
-  fill(255);
   if (mousepos >= 5600){
     tint(255, 250); 
-    image(processor,500, 6000, 1000, 500);
-    tint(255, 250 - (mousepos - 5600));
+    image(processor,500, 7000, 1000, 500);
+  }
+  tint(255, 250); 
+    if (mousepos >= 5630){
+      fill(mousepos - 6700,mousepos - 6300,mousepos - 6500);
+      text('Encryption code 2.2 Processor',500,7000);
+      textSize(50);
+      fill(mousepos - 6500,mousepos - 6700,mousepos - 6900);
+      text('The fastest and most efficient data processor ever built by Encryption code',100,7500);
+    }
+  fill(255);
+  if (mousepos >= 5600){
+    tint(255, 250 - (mousepos - 6300));
     fill(255);
    
   } else {
-    tint(255, (mousepos - 5243)); 
+    // full brightness at 5315   5239   make it wait there for some time
+    tint(255, (mousepos - 5239)*4); 
   }
+  x = 3;
   
   text('______________________',(mousepos/2)-4900,5100);
-  if (mousepos >= 5240 && mousepos <= 6000){
-    image(logo, (1000 - ((mousepos-5200)*x/2)), mousepos - (mousepos-5100), (mousepos-5200)*x, ((mousepos-5200)*2*x*9/16));
-    x = 6;
-  } else {
-    //image(logo, (1000-(mousepos-4700))/2, 5900, (mousepos-4700)*2, ((mousepos-4700)*2*9/16));
+  if (mousepos >= 5240 && mousepos <= 5400){ // 5300
+    image(logo, (1000 - ((mousepos-5200)*x/2)), mousepos - (mousepos-5400), (mousepos-5200)*x, ((mousepos-5200)*2*x*9/16));
+    textSize(45);
+    fill(mousepos-5200);
+    text('Binge worthy processor capability',50,5700);
+    fill(mousepos-5300);
+    text('Outstanding efficiency and speed',1300,5900);
+    fill(mousepos-5400);
+    text('Excellent Encryption accuracy',50,6000);
+  } else if (mousepos >= 5400 && mousepos <= 5550){
+    image(logo, 700, mousepos + mousepos-5400, 600, ((5400-5200)*2*x*9/16)); // 5700
+    textSize(45);
+    fill(mousepos-5200);
+    text('Binge worthy processor capability',50,5700);
+    fill(mousepos-5300);
+    text('Outstanding efficiency and speed',1300,5900);
+    fill(mousepos-5400);
+    text('Excellent Encryption accuracy',50,6000);
+    
+  } else if  (mousepos >= 5550){
+    image(logo, (1000 - ((mousepos-5350)*x/2)), mousepos - (mousepos-5700), (mousepos-5350)*x, ((mousepos-5350)*2*x*9/16));
+    textSize(45);
+    fill(mousepos-5200);
+    text('Binge worthy processor capability',50,5700);
+    fill(mousepos-5300);
+    text('Outstanding efficiency and speed',1300,5900);
+    fill(mousepos-5400);
+    text('Excellent Encryption accuracy',50,6000);
   }
-    tint(255, 250); 
-    if (mousepos >= 5630){
-      fill(mousepos - 6000,mousepos - 5600,mousepos - 5800);
-      text('Encryption code E22 Processor',500,6300);
-      textSize(50);
-      fill(mousepos - 5600,mousepos - 5800,mousepos - 6000);
-      text('The fastest and most efficient data processor ever built by Encryption code',100,6600);
-    }
 }
 
 function mouseWheel(event) {
