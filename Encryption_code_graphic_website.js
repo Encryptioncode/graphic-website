@@ -190,6 +190,12 @@ function draw() {
   behavior: 'smooth' 
    });
    }
+   
+  window.scroll({
+  top: mousepos,
+  behavior: 'smooth' 
+   });
+   
   if (firsttime && mousepos > 350){
     firsttime = false;
   }
@@ -624,7 +630,6 @@ function draw() {
   fill(255);
   if (mousepos >= 5600){
     tint(255, 250); 
-    text('fast processing gif here',500,5100);
     image(processor,500, 6000, 1000, 500);
     tint(255, 250 - (mousepos - 5600));
     fill(255);
@@ -644,9 +649,9 @@ function draw() {
     if (mousepos >= 5630){
       fill(mousepos - 6000,mousepos - 5600,mousepos - 5800);
       text('Encryption code E22 Processor',500,6300);
-      textSize(60);
+      textSize(50);
       fill(mousepos - 5800,mousepos - 5400,mousepos - 5600);
-      text('The fastest and mose efficient data processor ever built by Encryption code',50,6600);
+      text('The fastest and most efficient data processor ever built by Encryption code',50,6600);
     }
 }
 
