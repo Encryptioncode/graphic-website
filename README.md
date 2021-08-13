@@ -35,6 +35,7 @@ It is supposed to be similar to the apple website for iphone where they have to 
   - takes time in the beginning to load because there are 143 frames
   - has multiple frames from different angles and display them one by one
   - also it takes almost 300 lines of code for the animation and 143 for the image loading
+  - I might just make it a gif
 
 - Enlarging logo
   - logo enlarges as you scroll and then you go through it
