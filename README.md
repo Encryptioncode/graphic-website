@@ -42,4 +42,4 @@ It is supposed to be similar to the apple website for iphone where they have to 
   - it fades when you are going through it so that you can see the gif and text behind it
   - as you go though it the processing gif appears along with text that fades in
   - I made a high res logo for this so it doesnt get blurry when it becomes large
-  - also this is not super smooth as i want it to be but its ok
+  - also this is not super smooth as i want it to be but its not that bad
