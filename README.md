@@ -41,5 +41,5 @@ It is supposed to be similar to the apple website for iphone where they have to 
   - in the middle of enlarging it stops enlarging and then text goes by and the you go though it
   - it fades when you are going through it so that you can see the gif and text behind it
   - as you go though it the processing gif appears along with text that fades in
-  - I made a high res logo for this
+  - I made a high res logo for this so it doesnt get blurry when it becomes big
   - also this is not super smooth as i want it to be but its ok
