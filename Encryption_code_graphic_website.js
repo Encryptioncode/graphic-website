@@ -650,35 +650,39 @@ function draw() {
     tint(255, (mousepos - 5239)*4); 
   }
   x = 3;
+  textSize(45);
   
   text('______________________',(mousepos/2)-4900,5100);
   if (mousepos >= 5240 && mousepos <= 5400){ // 5300
     image(logo, (1000 - ((mousepos-5200)*x/2)), mousepos - (mousepos-5400), (mousepos-5200)*x, ((mousepos-5200)*2*x*9/16));
-    textSize(45);
-    fill(mousepos-5200);
-    text('Binge worthy processor capability',50,5700);
-    fill(mousepos-5300);
+    fill(mousepos-5300,mousepos-5200,mousepos-5100);
+    text('Binge worthy processor capability',50,2*(mousepos - 5300)+5300);
+    fill(mousepos-5200,mousepos-5100,mousepos-5300);
     text('Outstanding efficiency and speed',1300,5900);
-    fill(mousepos-5400);
+    fill(mousepos-5200,mousepos-5300,mousepos-5400);
     text('Excellent Encryption accuracy',50,6000);
   } else if (mousepos >= 5400 && mousepos <= 5550){
     image(logo, 700, mousepos + mousepos-5400, 600, ((5400-5200)*2*x*9/16)); // 5700
-    textSize(45);
-    fill(mousepos-5200);
-    text('Binge worthy processor capability',50,5700);
-    fill(mousepos-5300);
+    fill(mousepos-5300,mousepos-5200,mousepos-5100);
+    text('Binge worthy processor capability',50,2*(mousepos - 5300)+5300);
+    fill(mousepos-5200,mousepos-5100,mousepos-5300);
     text('Outstanding efficiency and speed',1300,5900);
-    fill(mousepos-5400);
+    fill(mousepos-5200,mousepos-5300,mousepos-5400);
     text('Excellent Encryption accuracy',50,6000);
     
-  } else if  (mousepos >= 5550){
+  } else if  (mousepos >= 5550 && mousepos <= 5677){
     image(logo, (1000 - ((mousepos-5350)*x/2)), mousepos - (mousepos-5700), (mousepos-5350)*x, ((mousepos-5350)*2*x*9/16));
-    textSize(45);
-    fill(mousepos-5200);
-    text('Binge worthy processor capability',50,5700);
-    fill(mousepos-5300);
+    fill(mousepos-5300,mousepos-5200,mousepos-5100);
+    text('Binge worthy processor capability',50,2*(mousepos - 5300)+5300);
+    fill(mousepos-5200,mousepos-5100,mousepos-5300);
     text('Outstanding efficiency and speed',1300,5900);
-    fill(mousepos-5400);
+    fill(mousepos-5200,mousepos-5300,mousepos-5400);
+    text('Excellent Encryption accuracy',50,6000);
+  } else if (mousepos >= 5677){
+    image(logo, (1000 - ((mousepos-5350)*x/2)), mousepos - (mousepos-5700), (mousepos-5350)*x, ((mousepos-5350)*2*x*9/16));
+    fill(225 - (mousepos - 5677));
+    text('Binge worthy processor capability',50,2*(mousepos - 5300)+5300);
+    text('Outstanding efficiency and speed',1300,5900);
     text('Excellent Encryption accuracy',50,6000);
   }
 }
