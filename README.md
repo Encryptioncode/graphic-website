@@ -38,6 +38,7 @@ It is supposed to be similar to the apple website for iphone where they have to 
 
 - Enlarging logo
   - logo enlarges as you scroll and then you go through it
+  - it fades when you are going thought it
   - as you go though it the processing gif appears along with text that fades in
   - I made a high res logo for this
   - also this is not super smooth as i want it to be but its ok
