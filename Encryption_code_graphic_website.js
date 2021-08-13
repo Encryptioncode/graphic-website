@@ -25,8 +25,7 @@ function donothing(){
 
 
 function preload(){
-  i1 = loadImage("Videoframes/ezgif-frame-001.jpg");
-i2 = loadImage("Videoframes/ezgif-frame-002.jpg");
+  frames = [loadImage("Videoframes/ezgif-frame-001.jpg"),loadImage("Videoframes/ezgif-frame-002.jpg")];
 i3 = loadImage("Videoframes/ezgif-frame-003.jpg");
 i4 = loadImage("Videoframes/ezgif-frame-004.jpg");
 i5 = loadImage("Videoframes/ezgif-frame-005.jpg");
@@ -336,9 +335,9 @@ function draw() {
   rect(0,4800,2000,3000);
   if (mousepos >= 4654){
   if (mousepos < 4754){ 
-  image(i1, 300, 4800, 1500, 844);
+  image(frames[0], 300, 4800, 1500, 844);
   } else if (mousepos >= 4754 && mousepos < 4756){
-  image(i2, 300, 4800, 1500, 844);
+  image(frames[1], 300, 4800, 1500, 844);
   } else if (mousepos >= 4756 && mousepos < 4758){
   image(i3, 300, 4800, 1500, 844);
   } else if (mousepos >= 4758 && mousepos < 4760){
