@@ -29,7 +29,7 @@ It is supposed to be similar to the apple website for iphone where they have to 
 
 - problems
   - the 99% thing staying in the center while scrolling moves up and down a bit too much
-  - it takes some time to load in the begining because it has to load the images
+  - it takes some time to load in the begining because it has to load the 143 frames for the animation (I might just make it a gif) 
 
 - computer animating
   - takes time in the beginning to load because there are 143 frames
