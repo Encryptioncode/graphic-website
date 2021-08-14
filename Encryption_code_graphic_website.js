@@ -25,7 +25,8 @@ function donothing(){
 
 
 function preload(){
-  frames = [loadImage("Videoframes/ezgif-frame-001.jpg"),loadImage("Videoframes/ezgif-frame-002.jpg")];
+  i1 = loadImage("Videoframes/ezgif-frame-001.jpg");
+  i2 = loadImage("Videoframes/ezgif-frame-002.jpg");
 i3 = loadImage("Videoframes/ezgif-frame-003.jpg");
 i4 = loadImage("Videoframes/ezgif-frame-004.jpg");
 i5 = loadImage("Videoframes/ezgif-frame-005.jpg");
@@ -169,6 +170,9 @@ i142 = loadImage("Videoframes/ezgif-frame-142.jpg");
 i143 = loadImage("Videoframes/ezgif-frame-143.jpg");
 logo = loadImage("logo.png");
 processor = loadImage("processor.gif");
+authentication = loadImage("authentication.gif");
+mailsending = loadImage("mail_sending.gif");
+filetypes = loadImage("file_types.gif"); 
 }
 
 var ftime = true;
@@ -671,13 +675,13 @@ function draw() {
     text('Excellent Encryption accuracy',50,6000);
     
   } else if  (mousepos >= 5550 && mousepos <= 5677){
-    image(logo, (1000 - ((mousepos-5350)*x/2)), mousepos - (mousepos-5700), (mousepos-5350)*x, ((mousepos-5350)*2*x*9/16));
     fill(mousepos-5300,mousepos-5200,mousepos-5100);
     text('Binge worthy processor capability',50,5700 - (mousepos - 5300));
     fill(mousepos-5200,mousepos-5100,mousepos-5300);
     text('Outstanding efficiency and speed',1300,5900);
     fill(mousepos-5200,mousepos-5300,mousepos-5400);
     text('Excellent Encryption accuracy',50,6000);
+    image(logo, (1000 - ((mousepos-5350)*x/2)), mousepos - (mousepos-5700), (mousepos-5350)*x, ((mousepos-5350)*2*x*9/16));
   } else if (mousepos >= 5677){
     fill(225 - (mousepos - 5677));
     text('Binge worthy processor capability',50,5700 - (mousepos - 5300));
@@ -685,6 +689,10 @@ function draw() {
     text('Excellent Encryption accuracy',50,6000);
     image(logo, (1000 - ((mousepos-5350)*x/2)), mousepos - (mousepos-5700), (mousepos-5350)*x, ((mousepos-5350)*2*x*9/16));
   }
+  
+  //image(authentication, 200, 6100,100,50);  
+  //image(filetypes, 800, 6100,100,50);  
+  //image(mailsending, 1400, 6100,100,50);  
 }
 
 function mouseWheel(event) {
