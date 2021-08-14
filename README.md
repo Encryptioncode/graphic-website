@@ -1,8 +1,11 @@
 # graphic-website
 Graphic website of Encryption code, with a lot of animating and fading content which is operated by scrolling
 
+Graphic website is now being hosted on github pages! view it [here](https://skparab1.github.io/active-website)!
+  - however, this hosting is quite laggy and does not show images
+
 It is supposed to be similar to the apple website for iphone where they have to phone animating around as you scroll
-- this contains scroll controlled animation and other content
+- this contains scroll controlled animation and other content 
 
 ## Check out what's done 
 ![](Encryption_code_website.gif)
