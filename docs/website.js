@@ -49,11 +49,6 @@ function draw() {
    });
    }
    
-  window.scroll({
-  top: mousepos,
-  behavior: 'smooth' 
-   });
-   
   if (firsttime && mousepos > 350){
     firsttime = false;
   }
