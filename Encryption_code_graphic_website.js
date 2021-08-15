@@ -646,7 +646,7 @@ function draw() {
     }
   fill(255);
   if (mousepos >= 5600){
-    tint(255, 250 - (mousepos - 6300));
+    tint(255, 250 - (mousepos - 6400));
     fill(255);
    
   } else {
@@ -690,9 +690,10 @@ function draw() {
     image(logo, (1000 - ((mousepos-5350)*x/2)), mousepos - (mousepos-5700), (mousepos-5350)*x, ((mousepos-5350)*2*x*9/16));
   }
   
-  //image(authentication, 200, 6100,100,50);  
-  //image(filetypes, 800, 6100,100,50);  
-  //image(mailsending, 1400, 6100,100,50);  
+  //ellipse(200,7900,100,100);
+  //image(authentication, 200, 7900,100,50);  
+  //image(filetypes, 800, 7900,100,50);  
+  //image(mailsending, 1400, 7900,100,50);  
 }
 
 function mouseWheel(event) {
