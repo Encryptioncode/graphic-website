@@ -208,7 +208,7 @@ function draw() {
     }
   fill(255);
   if (mousepos >= 5600){
-    tint(255, 250 - (mousepos - 6300));
+    tint(255, 250 - (mousepos - 6400));
     fill(255);
    
   } else {
