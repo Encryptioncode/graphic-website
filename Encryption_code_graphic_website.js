@@ -25,7 +25,7 @@ function donothing(){
 
 
 function preload(){
-  i1 = loadImage("Videoframes/ezgif-frame-001.jpg");
+i1 = loadImage("Videoframes/ezgif-frame-001.jpg");
   i2 = loadImage("Videoframes/ezgif-frame-002.jpg");
 i3 = loadImage("Videoframes/ezgif-frame-003.jpg");
 i4 = loadImage("Videoframes/ezgif-frame-004.jpg");
@@ -194,11 +194,6 @@ function draw() {
    });
    }
    
-  window.scroll({
-  top: mousepos,
-  behavior: 'smooth' 
-   });
-   
   if (firsttime && mousepos > 350){
     firsttime = false;
   }
@@ -337,6 +332,7 @@ function draw() {
   }
   tint(255, 250); 
   rect(0,4800,2000,3000);
+
   if (mousepos >= 4654){
   if (mousepos < 4754){ 
   image(frames[0], 300, 4800, 1500, 844);
@@ -689,9 +685,9 @@ function draw() {
     text('Excellent Encryption accuracy',50,6000);
     image(logo, (1000 - ((mousepos-5350)*x/2)), mousepos - (mousepos-5700), (mousepos-5350)*x, ((mousepos-5350)*2*x*9/16));
   }
-  
+  //fill(255);
   //ellipse(200,7900,100,100);
-  //image(authentication, 200, 7900,100,50);  
+  //image(authentication, 200, 8300,100,50);  
   //image(filetypes, 800, 7900,100,50);  
   //image(mailsending, 1400, 7900,100,50);  
 }
